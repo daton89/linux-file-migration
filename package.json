@@ -1,0 +1,23 @@
+{
+  "name": "linux-file-migration",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/daton89/linux-file-migration/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "migration.js",
+  "dependencies": {
+    "yargs": "^7.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daton89/linux-file-migration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daton89/linux-file-migration/issues"
+  },
+  "homepage": "https://github.com/daton89/linux-file-migration#readme"
+}

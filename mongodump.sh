@@ -33,7 +33,7 @@ else
 
     mkdir $DIR
     mongodump --host localhost --port 27017 --out $DIR
-    ssh $SRV "mkdir /root/backup-servers/ssml/mongodump/$NOW"
+    ssh $SRV "mkdir -R /root/backup-servers/ssml/mongodump/$NOW"
     scp -r -C $DIR $SRV:/root/backup-servers/ssml/mongodump/$NOW)
 fi
 

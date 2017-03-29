@@ -8,3 +8,5 @@ var argv = require('yargs')
     .argv;
 
 console.log(`Backing up ${argv.server}`);
+
+// todo add shell.js or shotgun.js to execute shell command

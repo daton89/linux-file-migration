@@ -2,10 +2,15 @@
 
 'use strict';
 
+var prompt = require('prompt');
+var shell = require('shelljs');
+
 var argv = require('yargs')
     .usage('Usage: $0 -server [string]')
     .demandOption(['server'])
     .argv;
+
+
 
 console.log(`Backing up ${argv.server}`);
 

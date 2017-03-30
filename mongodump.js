@@ -14,4 +14,18 @@ var argv = require('yargs')
 
 console.log(`Backing up ${argv.server}`);
 
-// todo add shell.js or shotgun.js to execute shell command
+/**
+ * 
+ * TODO 
+ * 
+ * create a string with date
+ * set a folder for mongodump
+ * mkdir a folder with date in mongodump folder
+ * 
+ * start the mongodump
+ * 
+ * ssh mkdir dir to copy new backup
+ * 
+ * scp files 
+ * 
+ */

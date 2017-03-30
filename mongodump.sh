@@ -24,7 +24,7 @@ then
     echo "No arguments are supplied"
     echo "Provide hostname as first parameter"
     echo "example: "
-    echo "=> ./mongodump.sh root@jointloop.ovh"
+    echo "=> $0 root@jointloop.ovh"
 else
     echo "Backing up to server: $1"
     NOW=$(date +"%d-%m-%Y_%H-%M")

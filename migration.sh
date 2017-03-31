@@ -19,5 +19,7 @@
 
 set -o nounset                              # Treat unset variables as an error
 
+HOST=jl
+
 rsync -auvz --progress jl:/var/www/vhosts /Volumes/OSX\ 1/backup_jointloop_server
 rsync -auvz --progress jl:/root/backup-servers /Volumes/OSX\ 1/backup_jointloop_server

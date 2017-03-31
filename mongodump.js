@@ -10,8 +10,6 @@ var argv = require('yargs')
     .demandOption(['server'])
     .argv;
 
-
-
 console.log(`Backing up ${argv.server}`);
 
 /**

@@ -12,6 +12,8 @@ var argv = require('yargs')
 
 console.log(`Backing up ${argv.server}`);
 
+var date = moment().format('dd-mm-yyyy')
+
 /**
  * 
  * TODO 

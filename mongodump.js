@@ -4,6 +4,7 @@
 
 var prompt = require('prompt');
 var shell = require('shelljs');
+var moment = require('moment')
 
 var argv = require('yargs')
     .usage('Usage: $0 -server [string]')
